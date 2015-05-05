@@ -8,15 +8,10 @@
   <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
-
-  <?php echo css('assets/css/main.css') ?>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.5/jquery.fullPage.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.5/jquery.fullPage.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.2/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.2/flickity.min.css">
 </head>
 <body>
-
-  <header class="header cf" role="banner">
-    <a class="logo" href="<?php echo url() ?>">
-      <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-    </a>
-    <?php snippet('menu') ?>
-  </header>

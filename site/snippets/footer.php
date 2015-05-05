@@ -9,6 +9,13 @@
     </div>
 
   </footer>
-
+<script>
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+	    sectionsColor: ['#9b9f92', '#fff', '#9b9f92', '#9b9f92'],
+	    anchors: ['josholins', 'gallery', 'information', 'index'],
+	});
+});
+</script>
 </body>
 </html>

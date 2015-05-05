@@ -1,20 +1,12 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
-
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
+<div id="fullpage">
+    <div class="section"><h1>Josh Olins</h1></div>
+    <div class="section"><?php snippet('gallery') ?></div>
+    <div class="section">
+      <div class="slide" data-anchor="information">Information</div>
+      <div class="slide" data-anchor="index">Index <a href="#gallery/8">Image 8</a></div>      
     </div>
-
-    <hr>
-
-      <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
-      <figure>
-        <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
-      </figure>
-      <?php endforeach ?>
-
-  </main>
+</div>
 
 <?php snippet('footer') ?>
