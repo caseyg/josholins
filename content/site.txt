@@ -1,17 +1,13 @@
-Title: Kirby Starterkit
+Title: Josh Olins
 
 ----
 
-Author: Bastian Allgeier GmbH
+Description: Josh Olins was born in west London on April 14th 1980. After being surrounded by art and photography from an early age he went on to specialize in photography as part of his art foundation at Middlesex University. From here he began work as a freelance assistant for 5 years, gaining experience from a variety of photographers until he decided to embark on his own care Another Magazine, Dazed & Confused, I-D, Interview, Love, Pop, Vogue China, Vogue Paris, Vogue Nippon, Vogue Uk, Vogue Us, V, V Man, W Magazine And WSJ. Aquascutum, Balenciaga, Benetton, Coach, Dkny, The Gap, Giorgio Armani, H&M, Juun J, Lancome, Levi’s, L’oreal, Louis Vuitton, Mango, Narcisco Rodriguez, Pepe Jeans, Vera Wang, Tommy Hilfiger And Topshop.
 
 ----
 
-Description: This is Kirby's Starterkit.
+Keywords: 
 
 ----
 
-Keywords: Kirby, CMS, file-based
-
-----
-
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: 
