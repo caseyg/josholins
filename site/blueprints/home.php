@@ -6,7 +6,15 @@ fields:
   title:
     label: Title
     type:  text
-  text:
-    label: Text
-    type:  textarea
-    size:  large
+files:
+  sortable: true
+  fields:
+    title:
+      label: Title
+      type: text
+    client:
+      label: Client
+      type: text
+    year:
+      label: Year
+      type: text
