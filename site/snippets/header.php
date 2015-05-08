@@ -13,5 +13,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.5/jquery.fullPage.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.2/flickity.pkgd.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.2/flickity.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
+  <header style="display:none;">
+    <h1><a href="#josholins">Josh Olins</a></h1>
+    <nav id="pages">
+      <ul>
+        <li><a href="#information">Information</a></li>
+        <li><a href="#information/index">Index</a></li>
+        <li><a href="http://josholins.tumblr.com">Blog</a></li>
+      </ul>
+    </nav>
+  </header>

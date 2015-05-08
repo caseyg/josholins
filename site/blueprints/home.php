@@ -6,6 +6,15 @@ fields:
   title:
     label: Title
     type:  text
+  information:
+    label: Information
+    type:  textarea
+  address:
+    label: Address
+    type:  text
+  email:
+    label: Email
+    type: text
 files:
   sortable: true
   fields:
