@@ -14,7 +14,9 @@
 			<p><a href="mailto:<?php echo $site->email() ?>"><?php echo $site->email() ?></a></p>
      	</footer>
       </div>
-      <div class="slide" data-anchor="index">Index <a href="#gallery/8">Image 8</a></div>      
+      <div class="slide" data-anchor="index">
+        <?php snippet('index') ?>
+      </div>      
     </div>
 </div>
 
