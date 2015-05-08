@@ -7,11 +7,11 @@
       <div class="slide" data-anchor="information">
 		<article>
 			<h2>Information</h2>
-			<p><?php echo $page->information() ?></p>
+			<p><?php echo $site->information() ?></p>
 		</article>
-		<footer>
-			<p><?php echo $page->address() ?></p>
-			<p><a href="mailto:<?php echo $page->email() ?>"><?php echo $page->email() ?></a></p>
+		<footer style="display:none;">
+			<p><?php echo $site->address() ?></p>
+			<p><a href="mailto:<?php echo $site->email() ?>"><?php echo $site->email() ?></a></p>
      	</footer>
       </div>
       <div class="slide" data-anchor="index">Index <a href="#gallery/8">Image 8</a></div>      

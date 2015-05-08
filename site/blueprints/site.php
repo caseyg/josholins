@@ -6,12 +6,12 @@ fields:
   title:
     label: Title
     type:  text
-  description:
-    label: Description
+  information:
+    label: Information
     type:  textarea
-  keywords:
-    label: Keywords
-    type:  tags
-  copyright:
-    label: Copyright
-    type:  textarea
+  address:
+    label: Address
+    type:  text
+  email:
+    label: Email
+    type: text

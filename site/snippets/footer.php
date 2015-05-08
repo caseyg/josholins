@@ -11,9 +11,11 @@ $(document).ready(function() {
           //using anchorLink
           if(anchorLink != 'josholins'){
               $("header").fadeIn();
+              $("footer").fadeIn();
           }
           if(anchorLink == 'josholins'){
               $("header").fadeOut();
+              $("footer").fadeOut();
           }
       },
       onLeave: function(index, nextIndex, direction){
@@ -21,6 +23,7 @@ $(document).ready(function() {
 
           if(index == 2 && direction == 'up'){
               $("header").fadeOut();
+              $("footer").fadeOut();
           }
       },     
 	});
