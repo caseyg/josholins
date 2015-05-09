@@ -5,6 +5,7 @@ $(document).ready(function() {
 	    anchors: ['josholins', 'gallery', 'information', 'index'],
       responsive: 0,
       loopHorizontal: false,
+      scrollOverflow: true,
       afterLoad: function(anchorLink, index){
           var loadedSection = $(this);
 
