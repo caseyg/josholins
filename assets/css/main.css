@@ -90,6 +90,16 @@ article h2 {
 .slide[data-anchor="index"] a:link, .slide[data-anchor="index"] a:visited {
 	text-decoration:none;
 }
+.slide[data-anchor="index"] a:link img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	opacity:.6;
+}
+.slide[data-anchor="index"] a:hover img {
+	-webkit-filter: none;
+	filter: none;
+	opacity:1;
+}
 .metadata {
 	text-align:center;
 	color:#000;
