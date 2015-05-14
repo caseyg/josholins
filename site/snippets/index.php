@@ -4,7 +4,7 @@
 		<?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
 			<li>
 				<a href="#gallery/<?php echo $i ?>">
-					<?php echo thumb($image, array('width' => 300, 'height' => 400, 'crop' => true)); ?>
+					<?php echo thumb($image, array('width' => 300, 'height' => 300)); ?>
 					<p class="metadata">
 						No. <?php echo $i++ ?><br>
 						<?php echo $image->client() ?><br>
