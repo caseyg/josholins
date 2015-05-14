@@ -8,7 +8,7 @@
     </div>
     <div class="section no-nav">
       <div class="slide" data-anchor="information">
-    		<article ?>
+    		<article class="sweet-justice">
     			<h2>Information</h2>
     			<p><?php echo $site->information() ?></p>
     		</article>

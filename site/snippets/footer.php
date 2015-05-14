@@ -1,3 +1,4 @@
+<script type="text/javascript" src="/assets/js/sweet-justice.min.js"></script>
 <script>
 $(document).ready(function() {
     $('#fullpage').fullpage({

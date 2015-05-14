@@ -69,7 +69,6 @@ header a:link, header a:visited, footer a:link, footer a:visited {
 article {
 	max-width:500px;
 	margin:auto;
-	text-align: justify;
 }
 article p {
 	padding: 0 25px;
