@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6, footer {
 	text-transform: uppercase;
 }
 
+.no-nav .fp-controlArrow {
+	display:none!important;
+}
+
 #cover {
 	color:#fff;
 	text-align:center;
