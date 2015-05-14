@@ -87,6 +87,13 @@ article h2 {
 	margin:0;
 	text-align:left;
 }
+.slide[data-anchor="index"] a:link, .slide[data-anchor="index"] a:visited {
+	text-decoration:none;
+}
+.metadata {
+	text-align:center;
+	color:#000;
+}
 footer {
 	position: fixed;
 	padding:0;
