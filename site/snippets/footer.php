@@ -6,6 +6,8 @@ $(document).ready(function() {
       responsive: 0,
       loopHorizontal: false,
       scrollOverflow: true,
+      normalScrollElements: ['#josholins', '#gallery', '#information', '#index'],
+      keyboardScrolling: false,
       afterLoad: function(anchorLink, index){
           var loadedSection = $(this);
 
