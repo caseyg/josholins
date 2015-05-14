@@ -79,13 +79,21 @@ article h2 {
 	font-size:1em;
 	letter-spacing:2px;
 }
+.count {
+	display:block;
+	position: absolute;
+	bottom:25px;
+	left:25px;
+	padding:0;
+	margin:0;
+	text-align:left;
+}
 footer {
 	position: fixed;
 	padding:0;
 	margin:0;
 	text-align:center;
 	width:100vw;
-	padding:0;
 	bottom:25px;
 }
 footer p {

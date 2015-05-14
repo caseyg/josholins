@@ -5,6 +5,7 @@ $(document).ready(function() {
 	    anchors: ['josholins', 'gallery', 'information', 'index'],
       responsive: 0,
       loopHorizontal: false,
+      animateAnchor: false,
       scrollOverflow: true,
       normalScrollElements: ['#josholins', '#gallery', '#information', '#index'],
       keyboardScrolling: false,
@@ -28,7 +29,11 @@ $(document).ready(function() {
               $("header").fadeOut();
               $("footer").fadeOut();
           }
-      },     
+      },   
+      afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
+          var leavingSlide = $(this);
+          $("#slide-current").text(slideIndex);  
+      },
 	});
 });
 </script>
