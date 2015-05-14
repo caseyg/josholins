@@ -16,7 +16,7 @@
 </head>
 <body>
   <header style="display:none;">
-    <h1><a href="#josholins">Josh Olins</a></h1>
+    <h1><a href="#gallery">Josh Olins</a></h1>
     <nav id="pages">
       <ul>
         <li><a href="#information">Information</a></li>
