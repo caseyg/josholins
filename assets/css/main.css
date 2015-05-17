@@ -116,3 +116,20 @@ footer p {
 	padding:0 25px;
 	margin:0;
 }
+.fp-controlArrow {
+	top:0;
+	width:45vw !important;
+	background-repeat:no-repeat;
+	border:none!important;
+	height:100vh;
+}
+.fp-controlArrow.fp-next {
+	background-image: url(/assets/images/right.png);
+	background-position: right 25px center;
+	right:0;
+}
+.fp-controlArrow.fp-prev {
+	background-image: url(/assets/images/left.png);
+	background-position:25px center;
+	left:0;
+}
