@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.5/jquery.fullPage.min.css">
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.3/jquery.slimscroll.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.5/jquery.fullPage.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
