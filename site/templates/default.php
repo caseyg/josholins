@@ -4,7 +4,7 @@
     <div class="section" id="cover" onClick="$.fn.fullpage.moveSectionDown();"><h1>Josh Olins</h1></div>
     <div class="section">
       <?php snippet('gallery') ?>
-      <p class="count"><span id="slide-current">0</span> of <span id="slide-total"><?php echo $page->files()->count(); ?></span></p>
+      <p class="count"><span id="slide-current">1</span> of <span id="slide-total"><?php echo $page->files()->count(); ?></span></p>
     </div>
     <div class="section no-nav">
       <div class="slide" data-anchor="information">

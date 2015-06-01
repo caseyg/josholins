@@ -36,7 +36,7 @@ $(document).ready(function() {
     },   
     afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
       var leavingSlide = $(this);
-      $("#slide-current").text(slideIndex);  
+      $("#slide-current").text(slideIndex+1);  
     },
 	});
 });
