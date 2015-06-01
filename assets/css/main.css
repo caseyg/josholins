@@ -150,11 +150,11 @@ footer p {
 	margin:0;
 }
 .fp-controlArrow {
-	top:0;
+	top:19vh;
 	width:45vw !important;
 	background-repeat:no-repeat;
 	border:none!important;
-	height:100vh;
+	height:70vh;
 }
 .fp-controlArrow.fp-next {
 	background-image: url(/assets/images/right.png);
