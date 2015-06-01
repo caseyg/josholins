@@ -96,20 +96,42 @@ article h2 {
 .slide[data-anchor="index"] a:link, .slide[data-anchor="index"] a:visited {
 	text-decoration:none;
 }
-.slide[data-anchor="index"] a:link img {
+.slide[data-anchor="index"] ul, .slide[data-anchor="index"] li {
+	padding:0;
+	margin:0;
+}
+.slide[data-anchor="index"] ul {
+	display:block;
+	padding:200px 5vw;	
+}
+.slide[data-anchor="index"] li {
+	display:inline-block;
+	vertical-align: top;
+}
+.slide[data-anchor="index"] li:nth-child(odd) {
+	margin-right:5vw;
+}
+.slide[data-anchor="index"] figure {
+	margin:0;
+	padding:0;
+	max-width:40vw;
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
 	-webkit-filter: grayscale(100%) sepia() hue-rotate(93deg) brightness(100%) saturate(20%) contrast(100%);
 	filter: grayscale(100%) sepia() hue-rotate(93deg) brightness(100%) saturate(20%) contrast(100%);
 	opacity:.6;
 }
-.slide[data-anchor="index"] a:hover img {
+.slide[data-anchor="index"] figure img {
+	max-width:100%;
+	height:auto;
+}
+.slide[data-anchor="index"] a:hover figure {
 	-webkit-filter: none;
 	filter: none;
 	opacity:1;
 }
-.slide[data-anchor="index"] figure {
-	width:300px;
-	height:300px;
-}
+
 .metadata {
 	text-align:center;
 	color:#000;
@@ -143,3 +165,34 @@ footer p {
 	background-position:25px center;
 	left:0;
 }
+
+@media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:600px) { 
+	.slide[data-anchor="index"] figure {
+		width:24.5vw;
+	}
+	.slide[data-anchor="index"] li:nth-child(2n+2) {
+		margin-right:5vw;
+	}25px
+}
+@media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+	.slide[data-anchor="index"] figure {
+		width:17.1vw;
+	}
+}
+@media (min-width:1010px) { /* big landscape tablets, laptops, and desktops */ 
+	.slide[data-anchor="index"] ul {
+		width:975px;
+		margin:auto;
+		padding:200px 25px;
+	}
+	.slide[data-anchor="index"] figure {
+		width:225px!important;
+	}
+	.slide[data-anchor="index"] li {
+		margin-right:15px!important;
+	}
+
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
