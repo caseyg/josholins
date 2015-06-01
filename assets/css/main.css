@@ -25,6 +25,8 @@ body {
 
 h1, h2, h3, h4, h5, h6, footer {
 	text-transform: uppercase;
+	font-size:15px;
+	font-weight:normal;
 }
 
 .no-nav .fp-controlArrow {
@@ -43,7 +45,8 @@ header {
 	left:0;
 }
 header h1 {
-	font-size:1em;
+	font-size:15px;
+	font-weight:normal;
 	position: fixed;
 	padding:0;
 	margin:0;
@@ -52,6 +55,7 @@ header h1 {
 }
 header nav {
 	position: fixed;
+	font-size:15px;
 	top:25px;
 	right:25px;
 }
